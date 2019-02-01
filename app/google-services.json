@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "359463403441",
+    "firebase_url": "https://comode-773b0.firebaseio.com",
+    "project_id": "comode-773b0",
+    "storage_bucket": "comode-773b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359463403441:android:fb91259889e0efc3",
+        "android_client_info": {
+          "package_name": "mx.daniel.arechiga.comode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359463403441-9kgl9btkemm1oqgu83k3vscj2j9i93d4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMZY0cs3jPVwzABUxM0zEnrbHsNh3srvc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

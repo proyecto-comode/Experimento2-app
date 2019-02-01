@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    tools:context="mx.daniel.arechiga.comode.MainActivity"
+    android:stretchColumns="*"
+    android:shrinkColumns="*"
+    android:baselineAligned="false">
+
+    <TableRow android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Preferencias"
+            android:id="@+id/titulo"
+            android:gravity="center"
+            android:layout_span="3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorPrimary"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Actividades de Interior"
+            android:id="@+id/textView2"
+            android:layout_span="3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorAccent"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Juegos de Mesa"
+            android:id="@+id/cb_juegos_mesa"
+            android:checked="false" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cine"
+            android:id="@+id/cb_cine"
+            android:checked="false"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Museo"
+            android:id="@+id/cb_museo"
+            android:checked="false" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Literatura"
+            android:id="@+id/cb_literatura"
+            android:checked="false" />
+    
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Video Juegos"
+            android:id="@+id/cb_video_juegos"
+            android:checked="false"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Restaurante"
+            android:id="@+id/cb_restaurante"
+            android:checked="false"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Actividades de Exterior"
+            android:id="@+id/textView23"
+            android:layout_span="3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorAccent"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Picnic"
+            android:id="@+id/cb_picnic"
+            android:checked="false"/>
+    
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Parque"
+            android:id="@+id/bc_parque"
+            android:checked="false"/>
+    
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Deporte"
+            android:id="@+id/cb_deporte"
+            android:checked="false" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Turismo"
+            android:id="@+id/cb_turismo"
+            android:checked="false"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Arte"
+            android:id="@+id/bc_arte"
+            android:checked="false"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Caminar"
+            android:id="@+id/cb_caminar"
+            android:checked="false" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Preferencias de Lenguajes"
+            android:id="@+id/textView3"
+            android:layout_span="3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorAccent"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Español"
+            android:id="@+id/cb_espaniol"
+            android:checked="false" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ingles"
+            android:id="@+id/cb_ingles"
+            android:checked="false" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Areas de Interes"
+            android:id="@+id/textView6"
+            android:layout_span="3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorAccent"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Salud"
+            android:id="@+id/cb_salud"
+            android:checked="false"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Computacion"
+            android:id="@+id/cb_computacion"
+            android:checked="false"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tecnologia"
+            android:id="@+id/cb_tecnologia"
+            android:checked="false"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Naturaleza"
+            android:id="@+id/cb_naturaleza"
+            android:checked="false"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sociales"
+            android:id="@+id/cb_sociales"
+            android:checked="false"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Humanidades"
+            android:id="@+id/cb_humanidades"
+            android:checked="false"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Economicas"
+            android:id="@+id/cb_Economicas"
+            android:checked="false"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Administrativas"
+            android:id="@+id/cb_adminsitrativas"
+            android:checked="false"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Artes"
+            android:id="@+id/cb_artes"
+            android:checked="false"/>
+    </TableRow>
+    <TableRow
+        android:layout_weight="1">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Exactas"
+            android:id="@+id/cb_exactas"
+            android:checked="false"/>
+
+    </TableRow>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fb_actualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/ic_oportuno"
+        app:elevation="8dp"
+        android:onClick="EnviarInformacion"
+        app:backgroundTint="@android:color/holo_blue_dark" />
+
+</TableLayout>

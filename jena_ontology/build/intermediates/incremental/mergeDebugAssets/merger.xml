@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Macbook/Desktop/Proyectos/AndroidStudioProjects/COMoDE/jena_ontology/src/main/assets"/><source path="/Users/Macbook/Desktop/Proyectos/AndroidStudioProjects/COMoDE/jena_ontology/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/Macbook/Desktop/Proyectos/AndroidStudioProjects/COMoDE/jena_ontology/src/debug/assets"/></dataSet></merger>
